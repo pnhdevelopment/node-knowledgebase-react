@@ -1,0 +1,51 @@
+/* HOME */
+
+#home a{
+    color:black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#home a:hover{
+    color: #00aeef;
+}
+
+
+#home .icon{
+    width: 20px;
+    height: 25px;
+    fill: black;
+}
+
+
+#home a.continue-reading{
+    color: #00aeef;
+}
+
+
+#home .excerpt p{
+    margin: 0;
+    display: none;
+}
+
+
+#home .img-wrapper{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    background: linear-gradient(155deg, #d7f7ff 6%, #ffedfa 88%);
+}
+
+#home .img-wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+
+
+.pagination{
+    justify-content: center !important;
+}

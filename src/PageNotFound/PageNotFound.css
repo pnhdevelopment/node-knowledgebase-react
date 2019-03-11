@@ -1,0 +1,7 @@
+#page-not-found a{
+    color: #00aeef;
+    text-decoration: none;
+    transition: 0.2s;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}

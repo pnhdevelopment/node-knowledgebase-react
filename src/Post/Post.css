@@ -1,0 +1,16 @@
+#post .img-wrapper{
+	width: 100%;
+	padding-bottom: 56.25%;
+	margin: auto;
+	background: linear-gradient(155deg, #d7f7ff 6%, #ffedfa 88%);
+	position: relative;
+}
+
+#post .img-wrapper img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: 0.5s;
+	opacity: 0;
+}

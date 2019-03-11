@@ -1,33 +1,56 @@
-.App {
-  text-align: center;
+body{
+  background-image: url('./assets/bg.png');
+  background-color: #b7f5b7;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100%;
+  background-attachment: fixed;
+  margin: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Dosis', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Sticky footer */
+html, body { 
+    height: 100%; 
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.Site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.Site-content {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Svg icons */
+.icon{
+    width: 20px;
+    height: 25px;
+    fill: black;
 }
+
+
+/* Loading icon */
+.loader{
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #4caf50; /* Blue */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+@keyframes spin{
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+
