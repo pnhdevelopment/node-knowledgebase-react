@@ -35,7 +35,7 @@ class Home extends Component {
 
     if (!query) query = '';
     
-    this.url = 'http://www.node-knowledgebase-api.pnhdevelopment.com/wp-json/wp/v2/posts?_embed&search=' + query;
+    this.url = 'https://www.node-knowledgebase-api.pnhdevelopment.com/wp-json/wp/v2/posts?_embed&search=' + query;
 
     fetch(this.url)
       .then(res => res.json())

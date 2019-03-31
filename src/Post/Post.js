@@ -12,7 +12,7 @@ class Post extends Component {
   constructor(props){
     super(props);
 
-    this.url = 'http://www.node-knowledgebase-api.pnhdevelopment.com/wp-json/wp/v2/posts?_embed&slug=' + this.props.match.params.slug;
+    this.url = 'https://www.node-knowledgebase-api.pnhdevelopment.com/wp-json/wp/v2/posts?_embed&slug=' + this.props.match.params.slug;
 
     this.state = {
       error: null,
