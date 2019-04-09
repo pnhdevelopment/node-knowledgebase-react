@@ -117,7 +117,7 @@ class Home extends Component {
                 </Link>
               </div>
 
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 text-center text-md-left">
                 {/* Title */}
                 <Link to={post.slug}>
                   <h1 dangerouslySetInnerHTML={{__html: `${post.title.rendered}`}} />
